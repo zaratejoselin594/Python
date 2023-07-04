@@ -18,3 +18,11 @@ set = {"ldkfjas"}
 #no muestra datos repetidos y no se accede a los elementos a travez de un indice
 set = {"joselin", "banana", 1.47, 15, "joselin"}
 print(set)
+
+#creando diccionaria (dict), estructura key:value, se separa con comas ,
+diccionario = {
+  "nombre": "joselin",
+  "fruta": "banana",
+  "altura": 1.47,
+  "edad":15
+}

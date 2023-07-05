@@ -51,7 +51,11 @@ if nom_usuario != usuario or contraseña != clave:
         elif calculo == 5: print(n1 / n2)
         elif calculo == 6: print(n1 // n2)
         elif calculo == 7: print(n1 % n2)
-        tf = input("Quieres realizar otra operacion? colocar si o no  ")
+        tf_numero = input("Deseas camiar los numeros dados? si o no")
+        if tf_numero == "si":
+          n1 = int(input("Ingrese un numero.  "))
+          n2 = int(input("Ingrese otro numero, luego eligiras el calculo que quieras realizar.  "))
+        tf = input("Quieres realizar otra operacion? si o no  ")
 elif nom_usuario == usuario and contraseña == clave:
   print("Iniciando session correctamente. ")
   n1 = int(input("Ingrese un numero.  "))
@@ -66,4 +70,8 @@ elif nom_usuario == usuario and contraseña == clave:
     elif calculo == 5: print(n1 / n2)
     elif calculo == 6: print(n1 // n2)
     elif calculo == 7: print(n1 % n2)
-    tf = input("Quieres realizar otra operacion? colocar si o no  ")
+    tf_numero = input("Deseas camiar los numeros dados? si o no")
+    if tf_numero == "si":
+      n1 = int(input("Ingrese un numero.  "))
+      n2 = int(input("Ingrese otro numero, luego eligiras el calculo que quieras realizar.  "))
+      tf = input("Quieres realizar otra operacion? si o no  ")

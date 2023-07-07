@@ -21,7 +21,7 @@ for num in range (4, 23):
   
 #recorriendo los numeros desde el indice de la lista, no es una mejor forma de recorrer la lista
 for num in range(len(numeros)):
-  print(numeros[num])
+  print(numeros[num])  #los set no pueden ser iterados de esta forma
   
 #mejor forma de recorrerlo con su indice
 for indice, num in enumerate(numeros):
@@ -35,4 +35,4 @@ for num in numeros:
 else: #lo muestra siempre al final de cada bucle
   print("el bucle termino")
 
-#todo lo anterior funciona exactamente igual con las tuplas
+#todo lo anterior funciona exactamente igual con las tuplas y los sets

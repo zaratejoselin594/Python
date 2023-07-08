@@ -14,4 +14,4 @@ ocho = False | False #devuelve false
 nueve = not True #devuelve false
 diez = not False #devuelve true
 
-print(f"{uno}, {dos}, {tres}, {cuatro}, {cinco}, {seis}, {siete}, {nueve}, {diez},")
+print(f"{uno},  {dos}, {tres}, {cuatro}, {cinco}, {seis}, {siete}, {nueve}, {diez},")

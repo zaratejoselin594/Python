@@ -14,5 +14,4 @@ div_baja = 12 // 5 #devuelve entero redondiado abajo
 
 #resto (%)
 resto = 12 % 5
-
 print(f"suma {suma}, resta {resta}, multi {multi}, division {div}, potencia {potencia}, division baja {div_baja}, resto {resto}");

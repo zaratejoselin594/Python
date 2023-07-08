@@ -19,6 +19,6 @@ print("ola" in bienvenida) #busca esos carateres en la variable bienvenida y dev
 print("sfls" not in bienvenida) 
 
 #definir variable con camelCase
-holaCualEsTuNombre = "";
+holaCualEsTuNombre = ""
 #definir variable con snake_case
-hola_cual_es_tu_nombre = "";
+hola_cual_es_tu_nombre = ""

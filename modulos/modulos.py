@@ -23,3 +23,17 @@ print(__name__)
 
 #accedemos al nombre del modulo llamado
 print(ms.__name__)
+
+#esto si l modulo se encuentra en la misma carpeta 
+#imaginemos que el modulo_saludar se encuentra dentro de una carpeta y esta carpeta se llama modulos, ¿como accederiamos al modulo?
+#se accederia de esta manera:
+#from modulos.modulo_saludar import saludar
+
+# o tambien:
+import modulos.modulo_saludar as mms
+print(mms.saludar("pepe"))
+
+# para utilizar las funciones debemos hacerlo de esta forma:
+# print(modulos.modulo_saludar.saludar("pepe"))
+# si no te sabes la ruta de donde esta el modulo que deseas usar, en el mismo modulo donde estan las funciones debes colocar print(__name__)  y te mostrara el nombre completo que deberias usar. de todas formas podras usar el as
+

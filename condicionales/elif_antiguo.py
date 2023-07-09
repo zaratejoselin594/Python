@@ -63,7 +63,8 @@ elif nom_usuario == usuario and contraseña == clave:
   tf = "si"
   while tf == "si":
     calculo = int(input("Cual de estas calculo quieres realizar: 1) Suma, 2) Resta, 3) Multiplicacion, 4) Potenciar, 5) Division (devolviendo float), 6) Division (devolviento int), 7) Division (devolviendo resto), Coloque el numero deseado...  "))
-    if calculo == 1: print(n1 + n2)
+    if calculo == None: calculo = int(input("Cual de estas calculo quieres realizar: 1) Suma, 2) Resta, 3) Multiplicacion, 4) Potenciar, 5) Division (devolviendo float), 6) Division (devolviento int), 7) Division (devolviendo resto), Coloque el numero deseado...  "))
+    elif calculo == 1: print(n1 + n2)
     elif calculo == 2: print(n1 - n2)
     elif calculo == 3: print(n1 * n2)
     elif calculo == 4: print(n1 ** n2)

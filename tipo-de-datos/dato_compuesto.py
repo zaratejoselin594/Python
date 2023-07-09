@@ -21,9 +21,11 @@ print(set)
 
 #creando diccionaria (dict), estructura key:value, se separa con comas ,
 diccionario = {
-  "nombre": "joselin",
+  1: "pepe",
   "fruta": "banana",
-  "altura": 1.47,
-  "edad":15
+  "altura": 1.3,
+  "edad":15342
 }
 
+print(diccionario[1])
+print(diccionario["edad"])

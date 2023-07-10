@@ -1,3 +1,6 @@
-with open("archivos\\texto.txt","w", encoding="UTF-8") as archivo:
-  #archivo.write("jdfa hola") # sobre escibe el archivo
-  archivo.writelines(["hola\n", "mundo\n"])
+#el "a" agrega 
+with open("archivos\\texto.txt","a", encoding="UTF-8") as archivo:
+  #archivo.write("ola") cada vez que lo ejecutamos se agrega el texto
+  #usando un bucle para agregar varias lineas
+  for i in range(5):
+    archivo.write(f"linea {i+1} agregada \n")

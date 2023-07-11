@@ -38,3 +38,18 @@ print("---------------")
 df_info = df.describe()
 print(df_info)
 print("---------------")
+
+#accediendo a un elemento especifico del df con loc
+elemento_esp = df.iloc[2, 2]
+print(elemento_esp)
+print("---------------")
+
+#accediendo a todas las filas de una columna
+apellidos = df.iloc[:, 1]
+print(apellidos)
+print("---------------")
+
+#accediendo a las filas de edad mayor a 30
+mayor_30 = df.loc[df["edad"]>=30, :]
+print(mayor_30)
+print("---------------")
